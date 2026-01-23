@@ -1,0 +1,14 @@
+D:\HelloWorldCSharp\PHT4\bin\Debug\net10.0\PHT4.exe
+D:\HelloWorldCSharp\PHT4\bin\Debug\net10.0\PHT4.deps.json
+D:\HelloWorldCSharp\PHT4\bin\Debug\net10.0\PHT4.runtimeconfig.json
+D:\HelloWorldCSharp\PHT4\bin\Debug\net10.0\PHT4.dll
+D:\HelloWorldCSharp\PHT4\bin\Debug\net10.0\PHT4.pdb
+D:\HelloWorldCSharp\PHT4\obj\Debug\net10.0\PHT4.GeneratedMSBuildEditorConfig.editorconfig
+D:\HelloWorldCSharp\PHT4\obj\Debug\net10.0\PHT4.AssemblyInfoInputs.cache
+D:\HelloWorldCSharp\PHT4\obj\Debug\net10.0\PHT4.AssemblyInfo.cs
+D:\HelloWorldCSharp\PHT4\obj\Debug\net10.0\PHT4.csproj.CoreCompileInputs.cache
+D:\HelloWorldCSharp\PHT4\obj\Debug\net10.0\PHT4.dll
+D:\HelloWorldCSharp\PHT4\obj\Debug\net10.0\refint\PHT4.dll
+D:\HelloWorldCSharp\PHT4\obj\Debug\net10.0\PHT4.pdb
+D:\HelloWorldCSharp\PHT4\obj\Debug\net10.0\PHT4.genruntimeconfig.cache
+D:\HelloWorldCSharp\PHT4\obj\Debug\net10.0\ref\PHT4.dll
