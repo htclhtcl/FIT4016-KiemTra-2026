@@ -1,0 +1,6 @@
+@PHT_ASP.NET_CORE_API_HostAddress = http://localhost:5252
+
+GET {{PHT_ASP.NET_CORE_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

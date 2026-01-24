@@ -1,0 +1,4 @@
+D:\HelloWorldCSharp\PHT_C#MODERN\obj\Debug\net10.0\PHT_C#MODERN.GeneratedMSBuildEditorConfig.editorconfig
+D:\HelloWorldCSharp\PHT_C#MODERN\obj\Debug\net10.0\PHT_C#MODERN.AssemblyInfoInputs.cache
+D:\HelloWorldCSharp\PHT_C#MODERN\obj\Debug\net10.0\PHT_C#MODERN.AssemblyInfo.cs
+D:\HelloWorldCSharp\PHT_C#MODERN\obj\Debug\net10.0\PHT_C#MODERN.csproj.CoreCompileInputs.cache
