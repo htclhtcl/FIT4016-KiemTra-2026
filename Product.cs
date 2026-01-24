@@ -1,37 +1,32 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OrderManagementApp.Models
+public class Product
 {
-    public class Product
-    {
-        [Key]
-        public int Id { get; set; }
+    public int Id { get; set; }
 
-        [Required]
-        [StringLength(150)]
-        public string Name { get; set; }
+    [Required]
+    [MaxLength(200)]
+    public string Name { get; set; } = string.Empty;
 
-        [Required]
-        [StringLength(50)]
-        public string Sku { get; set; }
+    [MaxLength(2000)]
+    public string? Description { get; set; }
 
-        public string? Description { get; set; }
+    [Column(TypeName = "decimal(18,2)")]
+    public decimal Price { get; set; }
 
-        [Required]
-        [Column(TypeName = "decimal(18,2)")]
-        public decimal Price { get; set; }
+    [Range(0, 10000)]
+    public int Stock { get; set; }
 
-        [Required]
-        public int StockQuantity { get; set; }
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime? UpdatedAt { get; set; }
 
-        [Required]
-        [StringLength(100)]
-        public string Category { get; set; }
+    // 🔴 PHẢI CÓ 2 FIELD NÀY
+    public bool IsDeleted { get; set; } = false;
+    public DateTime? DeletedAt { get; set; }
 
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
+    // Foreign key
+    public int CategoryId { get; set; }
 
-        public ICollection<Order> Orders { get; set; }
-    }
+    public Category Category { get; set; } = null!;
 }
